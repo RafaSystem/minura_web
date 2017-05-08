@@ -1,0 +1,35 @@
+*{ margin: 0; padding: 0; }
+
+header, nav, main { width: 80%; padding: 2% 10% 2% 10%; display: table; }
+
+body { background-color: #C1CAD6; }
+header, nav { background-color: #FFFFFF; }
+
+.minura-cel25 { display: table-cell; width: 25%; }
+.minura-cel50 { display: table-cell; width: 50%;}
+
+.minura-logotipo { vertical-align: middle; padding-left: 5%; }
+
+.minura-aviso {}
+.minura-aviso-titulo {}
+.minura-aviso-corpo {}
+
+.minura-logs { text-align: right; }
+.minura-logs ul li { display: inline; }
+.minura-logs ul li a { margin-left: 2%; margin-right: 2%; }
+
+nav { margin-top: 2%; margin-bottom: 2%; }
+.minura-nav { display: table-cell; text-align: center; }
+.minura-nav-menu {}
+.minura-nav-menu ul li { display: inline; }
+.minura-nav-menu ul li a { margin-left: 3%; margin-right: 3%; }
+
+.minura-main { background-color: #FFFFFF; padding: 2% 10% 2% 10%; }
+
+.main-registro {}
+.form-group { display: table; width: 100%; }
+.form-group-label { font-weight: bold; text-align: right; padding-right: 2%; vertical-align: middle; }
+.form-group-input { width: 50%; text-align: center; padding-top: 1%; padding-bottom: 1%; margin-top: 1%; margin-bottom: 1%; }
+.form-group-btns { text-align:center; width: 40%; margin: 2px 30% 2px 30%; padding: 1% 0 1% 0; }
+
+footer { text-align: center; color: #6d7077; }
